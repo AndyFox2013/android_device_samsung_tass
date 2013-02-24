@@ -25,6 +25,7 @@ TARGET_DISABLE_TRIPLE_BUFFERING := true
 ## Kernel, bootloader
 TARGET_BOOTLOADER_BOARD_NAME := tass
 TARGET_KERNEL_CONFIG := cyanogenmod_tass_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/msm7x27_kernel
 TARGET_OTA_ASSERT_DEVICE := tass,GT-S5570
 
 ## Camera FC hack
